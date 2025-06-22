@@ -10,7 +10,7 @@ export const StarBackground = () => {
         generateStars();
         generateMeteors();
 
-        const handleResize = () => {
+        const handleResize = () => { //
                 generateStars();
             };
 
