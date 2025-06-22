@@ -1,3 +1,5 @@
+import { Briefcase, Code, User } from "lucide-react";
+
 export const AboutMeSection =() => {
     return(
         <section id="about" className="py-24 px-4 relative">
@@ -29,8 +31,57 @@ export const AboutMeSection =() => {
                             <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors-duration-300">
                                 Download Resume
                             </a>
-
                         </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 gap-6">
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <Code className="h-6 w-6 text-primary"/>
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">
+                                        Web Development
+                                    </h4>
+                                    <p className="text-muted-foreground">
+                                        I specialize in building responsive and user-friendly web applications using modern technologies like React, Node.js, and more.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <User className="h-6 w-6 text-primary"/>
+                                </div>
+
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">
+                                        UI/UX Design
+                                    </h4>
+                                    <p className="text-muted-foreground">
+                                        I have a keen eye for design and user experience, ensuring that applications are not only functional but also visually appealing and easy to use.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <Briefcase className="h-6 w-6 text-primary"/>
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">
+                                        Project Management 
+                                    </h4>
+                                    
+                                    <p className="text-muted-foreground">
+                                        I specialize in building responsive and user-friendly web applications using modern technologies like React, Node.js, and more.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>    
                     </div>
                 </div>
             </div>
