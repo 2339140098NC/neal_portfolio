@@ -61,7 +61,7 @@ export const AboutMeSection =() => {
                                         UI/UX Design
                                     </h4>
                                     <p className="text-muted-foreground">
-                                        I have a keen eye for design and user experience, ensuring that applications are not only functional but also visually appealing and easy to use.
+                                        I'm good at design and user experience, ensuring that applications functional and visually appealing and easy to use.
                                     </p>
                                 </div>
                             </div>
