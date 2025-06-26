@@ -5,6 +5,8 @@ import {HeroSection} from "@/components/HeroSection";
 import {AboutMeSection} from "@/components/AboutMeSection";
 import { SkillsSection } from "../components/SkillsSection";
 import { ProjectSection } from "../components/ProjectSection";
+import { ContactSection } from "../components/ContactSection";
+import { Contact } from "lucide-react";
 
 export default function Home() {
   return <div className="min-h-screen bg-background text-foreground overflow-x-hidden"> 
@@ -20,6 +22,7 @@ export default function Home() {
       <AboutMeSection/>
       <SkillsSection/>
       <ProjectSection/>
+      <ContactSection/>
     </main>
     {/* Footer */}
   </div>;
