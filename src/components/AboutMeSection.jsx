@@ -77,7 +77,7 @@ export const AboutMeSection =() => {
                                     </h4>
                                     
                                     <p className="text-muted-foreground">
-                                        I specialize in building responsive and user-friendly web applications using modern technologies like React, Node.js, and more.
+                                        
                                     </p>
                                 </div>
                             </div>

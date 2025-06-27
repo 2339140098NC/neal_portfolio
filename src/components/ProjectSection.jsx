@@ -3,11 +3,11 @@ import { ArrowRight, ExternalLink, Github} from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "Pinterest Clone",
-        description: "A clone of the popular Pinterest, allowing users to create and share visual content.",
+        title: "Facial Detection",
+        description: "This project uses OpenCV to detect faces in a video file and display the results in real time.",
         image: "/projects/project1.png",
-        tags: ["React", "Node.js", "MongoDB"],
-        link: "https://www.pinterest.com/",
+        tags: ["Python", "OpenCV"],
+        link: "https://github.com/2339140098NC/Facial-detection.git",
         demoUrl:"#",
         githubUrl:"#",
     },
