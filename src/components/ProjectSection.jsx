@@ -9,7 +9,7 @@ const projects = [
         tags: ["Python", "OpenCV"],
         link: "https://github.com/2339140098NC/Facial-detection.git",
         demoUrl:"#",
-        githubUrl:"#",
+        githubUrl:"https://github.com/2339140098NC/Facial-detection.git",
     },
 
     {
