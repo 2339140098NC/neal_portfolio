@@ -7,8 +7,8 @@ const projects = [
         description: "This project uses OpenCV to detect faces in a video file and display the results in real time.",
         image: "/projects/project1.png",
         tags: ["Python", "OpenCV"],
-        link: "https://github.com/2339140098NC/Facial-detection.git",
-        demoUrl:"#",
+        link: "#",
+        //demoUrl:"https://github.com/2339140098NC/Facial-detection",
         githubUrl:"https://github.com/2339140098NC/Facial-detection.git",
     },
 
