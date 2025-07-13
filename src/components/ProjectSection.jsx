@@ -14,13 +14,13 @@ const projects = [
 
     {
         id: 2,
-        title: "Spotify Clone",
-        description: "A clone of the popular Spotify platform, allowing users to stream and share music.",
+        title: "Portfolio Website",
+        description: "A personal portfolio showcasing my projects, technical skills, and experience in software development.",
         image: "/projects/project2.png",
-        tags: ["React", "Node.js", "MongoDB"],
-        link: "https://www.spotify.com/",
-        demoUrl:"#",
-        githubUrl:"#",
+        tags: ["HTML/CSS", "Javascript", "React", "Tailwind"],
+        link: "https://www.nealtech.dev/",
+        demoUrl:"https://www.nealtech.dev/",
+        githubUrl:"https://github.com/2339140098NC/neal_portfolio",
     },
 
     {
